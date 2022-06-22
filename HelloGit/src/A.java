@@ -5,7 +5,8 @@ public class A {
 		System.out.println("Hello Git A!");
 		System.out.println("Change in master branch");
 		System.out.println("Here is devB branch");
-
+		C ctest = new C();  //devC
+		ctest.testC();      //devC
 	}
 
 }
